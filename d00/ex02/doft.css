@@ -1,0 +1,258 @@
+body
+{
+   /* background-image: url(resources/doft.jpg);*/
+    background-repeat: no-repeat;
+    background-position: -0px -77px; 
+    background-color: #505050;
+}
+img 
+{
+    /*opacity: 0.5;*/
+}
+.tabletop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	width: 1420px;
+	height: 137px;
+	margin: 0 auto;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+    position: absolute;
+    left: 237px;
+    top: 18px;
+}
+.tablemiddle {
+    display: flex;
+    flex-direction: column;
+	width: 1020px;
+	height: 581px;
+	margin: 0 auto;
+	background-color: #909090;
+	border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    left: 438px;
+    top: 175px;
+}
+.dayof42
+{
+    align-self: flex-start;
+    padding: 15px 15px;
+    width: 421px;
+    height: 100px;
+}
+.right_icon
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 121px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.loupe
+{
+    float: right;
+    padding-top: 10px;
+    padding-left: 48%;
+	height: 147px;
+}
+.reload
+{
+    align-self: flex-start;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.close
+{
+    align-self: flex-end;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.middle_icon
+{
+    padding: 10px;
+    width: 1000px;
+    height: 561px;
+}
+.chaise_ikea
+{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    left: 335px;
+    top: 330px;
+}
+.imac
+{
+    width: 180px;
+    height: 120px;
+    position: absolute;
+    left: 800px;
+    top: 330px;
+}
+.tableleft {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+	width: 140px;
+	height: 426px;
+	margin: 0 auto;
+	background-color: #909090;
+	border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    left: 267px;
+    top: 175px; 
+}
+.left_table_icon
+{
+    display: inline-block;
+    flex-direction: column;
+
+}
+.arrow
+{
+    position: absolute;
+    left: 300px;
+    top: 192px;
+    width: 70px;
+    height: 66px; 
+}
+.main
+{
+    position: absolute;
+    left: 300px;
+    top: 272px;
+    width: 70px;
+    height: 66px; 
+}
+.oeil
+{
+    border: solid 5px red;
+	border-radius: 5px;
+    margin: -5px -5px;
+    position: absolute;
+    left: 300px;
+    top: 349px;
+    width: 70px;
+    height: 66px;
+}
+.outil
+{
+    position: absolute;
+    left: 300px;
+    top: 425px;
+    width: 70px;
+    height: 71px; 
+}
+.chat
+{
+    position: absolute;
+    left: 300px;
+    top: 505px;
+    width: 70px;
+    height: 66px; 
+}
+.tableright {
+    display: flex;
+    flex-direction: column;
+	width: 138px;
+	height: 426px;
+	margin: 0 auto;
+	background-color: #909090;
+	border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    left: 1460px;
+    top: 175px; 
+    margin: 0px 30px; 
+}
+.book
+{
+    position: absolute;
+    left: 1522px;
+    top: 191px;
+    width: 72px;
+    height: 94px; 
+}
+.towel
+{
+    position: absolute;
+    left: 1522px;
+    top: 297px;
+    width: 72px;
+    height: 49px; 
+}
+.brick
+{
+    position: absolute;
+    left: 1498px;
+    top: 353px;
+    width: 119px;
+    height: 70px;
+    background-image: url(resources/brick.jpg);
+}
+.question {
+    background-color: #88FF89;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    width: 500px;
+    height: 149px;
+    position: absolute;
+    left: 193px;
+    top: 682px;
+    padding: 10px;
+}
+.description {
+    margin-top: 0px;
+    margin-bottom:0;
+    font-size: 17px;
+    letter-spacing: 0.6px;
+    font-family: sans-serif;
+}
+.entrez {
+    font-family: georgia;
+    letter-spacing:0.5px;
+    font-size: 33px;
+}
+.ordinateurs {
+    text-shadow: #cc2e12 7px 5px 4px;
+}
+.italic {
+    font-weight: 80;
+    font-style: italic;
+}
+input[type=text] {
+    width: 376px;
+    height: 17px;
+    margin-left: 2px;
+    border-top: 2px solid #A5A7A6;
+    border-left: 2px solid #9E9A9A;
+    border-bottom: 2px solid #EFEFEF;
+    border-right: 2px solid #F2ECF1;
+}
+input[type=button] {
+    width: 78px;
+    height: 20px;
+    background-color: #F2F1F1;
+    border-color: #98BD95;
+    border-radius: 2px;
+    margin-left: 4px;
+    width: 78px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: sans-serif;
+    font-style: bold;
+    color: black;
+    border-color: gray;
+    border: 1px solid gray;
+}
+input[type=button]:hover {
+    background-color: lightgrey;
+}
